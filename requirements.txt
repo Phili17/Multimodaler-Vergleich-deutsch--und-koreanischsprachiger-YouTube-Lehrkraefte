@@ -1,0 +1,6 @@
+marimo
+numpy==2.4.3
+av==17.0.0
+pathlib==1.0.1
+matplotlib==3.10.8
+transformers==5.3.0
