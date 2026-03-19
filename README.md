@@ -3,4 +3,4 @@
 
 Projektarbeit im Seminar Analyse und Visualisierung von Videoinhalten im WiSe 2025/26
 
-Python 3.13
+Python 3.11.13
