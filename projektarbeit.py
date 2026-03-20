@@ -7,7 +7,7 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import os
-    # Zwingt PyTorch auf dem Mac dazu, auf die sichere CPU auszuweichen
+    # Zwingt PyTorch auf dem Mac dazu, auf die sichere CPU auszuweichen #diese Zelle ist von Gemini 3.1 Pro generiert
     os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
@@ -232,7 +232,7 @@ def _(np, yolo_model):
                         area = w * h
 
                         # falls mehrere Personen erkannt werden (z.B. auf Plakaten im Hintergrund), 
-                        # nehme die größte Bounding Box (die echte Lehrkraft)
+                        # nehme die groesste Bounding Box (die echte Lehrkraft)
                         if area > max_person_area:
                             max_person_area = area
 
